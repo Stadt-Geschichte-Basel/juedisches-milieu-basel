@@ -1,0 +1,2 @@
+import{i as s}from"./p-501d07b5.js";import{s as o}from"./p-fd141259.js";globalThis.Context={};const a=async()=>{o({mode:"ios"})};const i=()=>{a();s()};export{i as g};
+//# sourceMappingURL=p-fb2ca245.js.map

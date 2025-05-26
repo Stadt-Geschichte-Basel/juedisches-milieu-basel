@@ -1,0 +1,2 @@
+import{c as o}from"./p-53386044.js";const t=(t,c)=>{const s=o().addElement(c.enteringEl).fromTo("opacity",0,1).duration(250);const a=o().addElement(c.leavingEl).fromTo("opacity",1,0).duration(250);const n=o().addAnimation(s).addAnimation(a);return n};export{t as a};
+//# sourceMappingURL=p-e0384db6.js.map
