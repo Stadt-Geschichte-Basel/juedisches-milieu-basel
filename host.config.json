@@ -2,7 +2,7 @@
   "hosting": {
     "headers": [
       {
-        "source": "/build/p-*",
+        "source": "/juedisches-milieu-basel/build/p-*",
         "headers": [
           {
             "key": "Cache-Control",
