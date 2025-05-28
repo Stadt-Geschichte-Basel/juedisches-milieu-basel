@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://das-juedische-basel.stadtgeschichtebasel.ch/sitemap.xml

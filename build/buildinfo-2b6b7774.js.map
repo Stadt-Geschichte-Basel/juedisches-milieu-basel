@@ -1,0 +1,1 @@
+{"file":"buildinfo-2b6b7774.js","mappings":"AAAA;MACa,SAAS,GAAG,yBAAyB;AAClD;MACa,OAAO,GAAG;;;;","names":[],"sources":["src/buildinfo.ts"],"sourcesContent":["// timestamp of build\nexport const timestamp = '28.5.2025, 6:47:26 UTC';\n// version\nexport const version = '1.0.0'"],"version":3}
