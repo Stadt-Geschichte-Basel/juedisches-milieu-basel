@@ -1,0 +1,2 @@
+import{r as n,h as o,F as i}from"./p-1bafedb0.js";import{h as t}from"./p-6bc8d60f.js";const e=":host{display:inline;padding-left:0.1rem}ion-icon{vertical-align:top;cursor:pointer}";const r=class{constructor(o){n(this,o);this.text=undefined}render(){return o(i,null,o("ion-icon",{onClick:n=>this.el.present(n),icon:t}),o("ion-popover",{ref:n=>this.el=n,trigger:"top-center",side:"top",alignment:"center"},o("ion-content",{class:"ion-padding"},this.text)))}};r.style=e;export{r as app_footnote};
+//# sourceMappingURL=p-e5b08d95.entry.js.map

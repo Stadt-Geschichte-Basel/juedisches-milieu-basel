@@ -1,0 +1,2 @@
+import{r as o,h as r,H as s}from"./p-1bafedb0.js";const t=":host{display:block;position:relative}.progress-bar{height:2rem;border-radius:8px;background-color:var(--ion-color-success);transition:width 2s}.progress-text{position:absolute;top:10px;text-align:center;width:100%}";const e=class{constructor(r){o(this,r)}render(){return r(s,null)}};e.style=t;export{e as app_footer};
+//# sourceMappingURL=p-4dcbfd87.entry.js.map
