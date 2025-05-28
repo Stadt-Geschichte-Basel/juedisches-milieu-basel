@@ -1,2 +1,0 @@
-import{r as o,h as s,H as r}from"./p-1bafedb0.js";import{c as t}from"./p-b2d007f6.js";import{g as n}from"./p-501d07b5.js";const c=":host(.ion-color){color:var(--ion-color-base)}";const i=class{constructor(s){o(this,s);this.color=undefined}render(){const o=n(this);return s(r,{class:t(this.color,{[o]:true})},s("slot",null))}};i.style=c;export{i as ion_text};
-//# sourceMappingURL=p-e7e01cea.entry.js.map

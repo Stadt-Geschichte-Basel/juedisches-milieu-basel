@@ -1,0 +1,2 @@
+import{i as n}from"./p-n-TtRdRj.js";const t=async()=>new Promise(((t,e)=>{if(n())return t(null);if("maplibregl"in window){return t(window.maplibregl)}const i=document.createElement("script");i.onload=()=>t(window.maplibregl);i.onerror=e;i.src="https://cdn.jsdelivr.net/npm/maplibre-gl@3.4.1/dist/maplibre-gl.js";const s=document.createElement("link");s.rel="stylesheet";s.href="https://cdn.jsdelivr.net/npm/maplibre-gl@3.4.1/dist/maplibre-gl.css";document.head.appendChild(s);document.body.appendChild(i)}));export{t as i};
+//# sourceMappingURL=p-r8LcZM4F.js.map

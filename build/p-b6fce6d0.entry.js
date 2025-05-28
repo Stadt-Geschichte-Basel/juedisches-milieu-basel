@@ -1,2 +1,0 @@
-import{r as o,h as t,H as r}from"./p-1bafedb0.js";const s=':host{display:block}figure{display:block;margin:1rem 0 3rem 0}::slotted([slot="caption"]){margin-top:.5rem;font-size:.8rem}';const l=class{constructor(t){o(this,t)}render(){return t(r,null,t("figure",null,t("slot",null),t("figcaption",null,t("slot",{name:"caption"}))))}};l.style=s;export{l as app_video};
-//# sourceMappingURL=p-b6fce6d0.entry.js.map
