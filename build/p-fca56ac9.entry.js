@@ -1,2 +1,0 @@
-import{r as o,h as s,H as r}from"./p-D6EONAzC.js";import{c as t}from"./p-DiVJyqlX.js";import{g as c}from"./p-DiEC1SQJ.js";const a=":host(.ion-color){color:var(--ion-color-base)}";const e=class{constructor(s){o(this,s);this.color=undefined}render(){const o=c(this);return s(r,{key:"4330b56cbc4e15953d9b3162fb40af728a8195dd",class:t(this.color,{[o]:true})},s("slot",{key:"ec674a71d8fbb04d537fd79d617d9db4a607c340"}))}};e.style=a;export{e as ion_text};
-//# sourceMappingURL=p-fca56ac9.entry.js.map

@@ -1,5 +1,0 @@
-import{c as o}from"./p-BGUp-1Wb.js";import{p as s}from"./p-nezZJyxV.js";
-/*!
- * (C) Ionic http://ionicframework.com - MIT License
- */const t="ION-CONTENT";const n="ion-content";const r=".ion-content-scroll-host";const e=`${n}, ${r}`;const c=o=>o.tagName===t;const a=async s=>{if(c(s)){await new Promise((t=>o(s,t)));return s.getScrollElement()}return s};const i=o=>{const s=o.querySelector(r);if(s){return s}return o.querySelector(e)};const f=o=>o.closest(e);const u=(o,s)=>{if(c(o)){const t=o;return t.scrollToTop(s)}return Promise.resolve(o.scrollTo({top:0,left:0,behavior:"smooth"}))};const p=(o,s,t,n)=>{if(c(o)){const r=o;return r.scrollByPoint(s,t,n)}return Promise.resolve(o.scrollBy({top:t,left:s,behavior:n>0?"smooth":"auto"}))};const l=o=>s(o,n);const m=o=>{if(c(o)){const s=o;const t=s.scrollY;s.scrollY=false;return t}else{o.style.setProperty("overflow","hidden");return true}};const h=(o,s)=>{if(c(o)){o.scrollY=s}else{o.style.removeProperty("overflow")}};export{r as I,n as a,i as b,p as c,m as d,f,a as g,c as i,l as p,h as r,u as s};
-//# sourceMappingURL=p-l4ILLOlT.js.map

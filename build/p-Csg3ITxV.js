@@ -1,2 +1,0 @@
-import{i as n}from"./p-n-TtRdRj.js";const t=async()=>new Promise(((t,o)=>{if(n())return t(null);if("Plotly"in window){return t(window.Plotly)}const i=document.createElement("script");i.onload=()=>t(window.Plotly);i.onerror=o;i.src="https://cdn.plot.ly/plotly-basic-2.23.2.min.js";document.body.appendChild(i)}));export{t as i};
-//# sourceMappingURL=p-Csg3ITxV.js.map
