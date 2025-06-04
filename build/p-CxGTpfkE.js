@@ -1,0 +1,2 @@
+function t(t,r){const o=new URLSearchParams({query:r});const n=new AbortController;const s=n.signal;const c=new Promise((async r=>{try{const e=await fetch(`${t}?${o}`,{method:"GET",headers:{Accept:"application/sparql-results+json"},redirect:"follow",signal:s});const n=await e.json();r(n)}catch(t){if(e(t)){console.log(t.message)}else{console.log(t)}}}));c.cancel=()=>n.abort();return c}function e(t){if(t&&t.name==="AbortError"){return true}return false}export{t as s};
+//# sourceMappingURL=p-CxGTpfkE.js.map
