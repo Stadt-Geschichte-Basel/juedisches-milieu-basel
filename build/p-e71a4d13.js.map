@@ -1,0 +1,1 @@
+{"version":3,"names":["timestamp","version"],"sources":["src/buildinfo.ts"],"sourcesContent":["// timestamp of build\nexport const timestamp = '4.6.2025, 17:34:58 UTC';\n// version\nexport const version = '1.0.0'"],"mappings":"MACaA,EAAY,yB,MAEZC,EAAU,e"}

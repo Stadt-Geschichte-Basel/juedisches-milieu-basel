@@ -1,0 +1,3 @@
+import{w as f}from"./p-c76826f0.js";import{r as a}from"./p-a533da20.js";/*!
+ * (C) Ionic http://ionicframework.com - MIT License
+ */const h=(t,r,o)=>{let e;const s=()=>!(r()===void 0||t.label!==void 0||o()===null),u=()=>{s()&&a(()=>{i()})},i=()=>{const n=r();if(n===void 0)return;if(!s()){n.style.removeProperty("width");return}const d=o().scrollWidth;if(d===0&&n.offsetParent===null&&f!==void 0&&"IntersectionObserver"in f){if(e!==void 0)return;const c=e=new IntersectionObserver(l=>{l[0].intersectionRatio===1&&(i(),c.disconnect(),e=void 0)},{threshold:.01,root:t});c.observe(n);return}n.style.setProperty("width",`${d*.75}px`)};return{calculateNotchWidth:u,destroy:()=>{e&&(e.disconnect(),e=void 0)}}};export{h as c};

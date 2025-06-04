@@ -1,0 +1,1 @@
+import{i}from"./p-27a92608.js";const l=async()=>new Promise((o,t)=>{if(i())return o(null);if("Plotly"in window)return o(window.Plotly);const n=document.createElement("script");n.onload=()=>o(window.Plotly),n.onerror=t,n.src="https://cdn.plot.ly/plotly-basic-2.23.2.min.js",document.body.appendChild(n)});export{l as i};

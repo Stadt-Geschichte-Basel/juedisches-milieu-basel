@@ -1,0 +1,1 @@
+import{r as s,h as t,H as e}from"./p-1bafedb0.js";const i=":host{display:block;position:relative}.progress-bar{height:2rem;border-radius:8px;background-color:var(--ion-color-success);transition:width 2s}.progress-text{position:absolute;top:10px;text-align:center;width:100%}",o=class{constructor(r){s(this,r)}render(){return t(e,null)}};o.style=i;export{o as app_footer};

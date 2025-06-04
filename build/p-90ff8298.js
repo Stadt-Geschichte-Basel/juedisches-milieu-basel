@@ -1,0 +1,1 @@
+import{c as n}from"./p-53386044.js";const i=(d,o)=>{const t=n().addElement(o.enteringEl).fromTo("opacity",0,1).duration(250),a=n().addElement(o.leavingEl).fromTo("opacity",1,0).duration(250);return n().addAnimation(t).addAnimation(a)};export{i as a};

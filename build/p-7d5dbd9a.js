@@ -1,0 +1,1 @@
+var t=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function i(o,r,e){return e={path:r,exports:{},require:function(u,l){return n()}},o(e,e.exports),e.exports}function n(){throw new Error("Dynamic requires are not currently supported by @rollup/plugin-commonjs")}export{t as a,n as b,i as c};
