@@ -24,10 +24,10 @@ authors:
     country: CH
     email: info@kleiolab.ch
     website: 'https://kleiolab.ch/'
-# identifiers:
-#   - type: doi
-#     value: 10.5281/zenodo.TBD
-#     description: Archived code base
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15681536
+    description: Archived code base
 repository-code: >-
   https://github.com/Stadt-Geschichte-Basel/juedisches-milieu-basel
 url: 'https://das-juedische-basel.stadtgeschichtebasel.ch/'
