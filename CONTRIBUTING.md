@@ -59,6 +59,25 @@ We actively welcome your pull requests:
 - npm (comes with Node.js)
 - Git
 
+### Project Architecture
+
+The application is built using **Stencil.js** web components with the following structure:
+
+- **Component Types**:
+  - `app-*` - Shared UI components (header, footer, dialogs, etc.)
+  - `page-*` - Page components for different routes
+  - `page-teil-*` - Individual puzzle piece pages (1-12)
+
+- **Key Directories**:
+  - `src/components/` - All Stencil web components
+  - `src/global/` - Global styles, scripts, and state management
+  - `src/assets/` - Static assets (images, fonts, data files)
+  - `www/` - Production build output
+
+- **State Management**: Uses `@stencil/store` for application state
+- **Routing**: Stencil Router for page navigation
+- **Storage**: `@ionic/storage` for persisting user progress
+
 ### Setup Instructions
 
 1. **Clone the repository**
@@ -185,11 +204,40 @@ docker build -t juedisches-basel-app .
 docker run -d -p 8080:8080 --name jb-app juedisches-basel-app
 ```
 
+## Development Tips
+
+### Component Development
+
+- Each Stencil component has its own directory with `.tsx` (component logic) and `.css` (styles) files
+- Use TypeScript for type safety
+- Follow the existing component structure when creating new components
+- Test components in isolation when possible
+
+### Debugging
+
+- Use browser DevTools for debugging in the browser
+- Check the console for Stencil build warnings and errors
+- Use `console.log()` or browser debugger breakpoints in component methods
+- The development server supports hot reloading for faster iteration
+
+### Performance
+
+- Stencil automatically optimizes components with lazy loading
+- Use `@Prop()` for component inputs and `@State()` for internal state
+- Minimize re-renders by using `@Watch()` decorators appropriately
+- The build process includes prerendering for better initial load performance
+
+### Working with Data
+
+- Historical content is stored in the `src/assets/` directory
+- User progress is persisted using `@ionic/storage`
+- State management is handled via `src/global/store.ts`
+
 ## Questions?
 
 If you have questions or need help, please:
 
-1. Check the [README.md](README.md) for basic information
+1. Check the [readme.md](readme.md) for basic information
 2. Search existing [issues](https://github.com/Stadt-Geschichte-Basel/juedisches-milieu-basel/issues)
 3. Create a new issue with the `question` label
 
